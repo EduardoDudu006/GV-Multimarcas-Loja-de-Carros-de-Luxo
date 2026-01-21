@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <!-- Fontes (mantidas as originais, mas é recomendável carregar apenas uma ou usar fontes do sistema) -->
+        <link href="https://fonts.googleapis.com" rel="stylesheet" />
+        <title>GV Multimarcas - Carros Modernos</title>
+    </head>
+    <body>
+        <header>
+            <img src="./img/Multimarcas_Logo.png" alt="logo gv" />
+            <nav aria-label="Navegação Principal">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#carros">Carros</a></li>
+                    <li><a href="#contato">Fale Conosco</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="container">
+                <div class="list">
+                    <div class="item active">
+                        <div class="car-img">
+                            <img
+                                src="./img/La Ferrari.png"
+                                alt="Imagem carro LaFerrari"
+                            />
+                        </div>
+
+                        <div class="content">
+                            <p class="car-information">Lendária</p>
+                            <h2>LaFerrari</h2>
+                            <p class="description">
+                                A LaFerrari, lançada em 2013, é um hipercarro
+                                icônico e o primeiro modelo híbrido de produção
+                                da Ferrari. Considerada a sucessora da lendária
+                                Ferrari Enzo, ela representa o auge da
+                                tecnologia e do design da marca italiana em sua
+                                época.
+                            </p>
+                            <button class="information">Saiba Mais</button>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="car-img">
+                            <img
+                                src="./img/Huracan Vermelho.png"
+                                alt="Imagem carro Huracan"
+                            />
+                        </div>
+
+                        <div class="content">
+                            <p class="car-information">Tecnológico</p>
+                            <h2>Huracan</h2>
+                            <p class="description">
+                                O Lamborghini Huracán é um superesportivo
+                                italiano com motor V10 naturalmente aspirado,
+                                famoso por seu design agressivo, desempenho
+                                eletrizante e som marcante. Foi o modelo mais
+                                vendido da marca, combinando tecnologia de ponta
+                                com um visual inconfundível.
+                            </p>
+                            <button class="information">Saiba Mais</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="car-img">
+                            <img
+                                src="./img/Bugatte Divo.png"
+                                alt="Imagem carro Bugatti Divo"
+                            />
+                        </div>
+                        <div class="content">
+                            <p class="car-information">1.500 Cavalos</p>
+                            <h2>Divo</h2>
+                            <p class="description">
+                                O Bugatti Divo é um hipercarro de produção
+                                limitada a 40 unidades, mais leve e focado em
+                                desempenho em curvas que o Chiron. Possui motor
+                                W16 de 8.0 litros, 1500 cv e design aerodinâmico
+                                agressivo.
+                            </p>
+                            <button class="information">Saiba Mais</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="car-img">
+                            <img
+                                src="./img/Maclaren.png"
+                                alt="Imagem carro McLaren P1"
+                            />
+                        </div>
+                        <div class="content">
+                            <p class="car-information">Performance</p>
+                            <h2>McLaren P1</h2>
+                            <p class="description">
+                                O McLaren P1 é um hipercarro inglês, reconhecido como um dos membros da "Santíssima Trindade" dos híbridos, ao lado de LaFerrari e Porsche 918. Equipado com um motor V8 biturbo de 3.8L e um motor elétrico, o conjunto entrega uma potência combinada de 916 cavalos. Sua construção leve em fibra de carbono e aerodinâmica avançada, que inclui um aerofólio traseiro ativo, permitem uma aceleração de 0 a 100 km/h em apenas 2,8 segundos e velocidade máxima limitada a 350 km/h.
+                            </p>
+                            <button class="information">Saiba Mais</button>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="car-img">
+                            <img
+                                src="./img/Corvette.png"
+                                alt="Imagem carro Corvette ZR1"
+                            />
+                        </div>
+                        <div class="content">
+                            <p class="car-information">Símbolo Americano</p>
+                            <h2>Corvette ZR1</h2>
+                            <p class="description">
+                                Corvette ZR1 é o carro mais potente já produzido pela Chevrolet, apresentando um motor V8 biturbo de 5.5L que gera mais de 1.000 cavalos de potência. O design é agressivo, com aerodinâmica avançada, incluindo um pacote opcional ZTK com grande aerofólio para uso em pistas.
+                            </p>
+                            <button class="information">Saiba Mais</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="arrows">
+                    <button id="prev" aria-label="Anterior">
+                        <img src="./img/Arrow.png" alt="seta esquerda" />
+                    </button>
+                    <button id="next" aria-label="Próximo">
+                        <img src="./img/Arrow.png" alt="seta direita" />
+                    </button>
+                </div>
+                <div class="indicators">
+                    <div class="number">01</div>
+                    <ul>
+                        <li class="active" data-index="0"></li>
+                        <li class="active" data-index="1"></li>
+                        <li class="active" data-index="2"></li>
+                        <li class="active" data-index="3"></li>
+                        <li class="active" data-index="4"></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; GV-Multimarcas - Todos os direitos reservados.</p>
+        </footer>
+
+        <script src="scripts.js"></script>
+    </body>
+</html>
